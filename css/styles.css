@@ -34,8 +34,9 @@ body {
     text-decoration: none
 }
 
-.header-nav-item is (:hover, :focus) {
-    color: rgba(77, 90, 229, 1);
+.header-nav-item:hover,
+.header-nav-item:focus {
+        color: rgba(77, 90, 229, 1);
 }
 
 .header-adr-item {
@@ -49,8 +50,8 @@ body {
     text-decoration: none
 }
 
-.header-adr-item :hover,
-.header-adr-item :focus {
+.header-adr-item:hover,
+.header-adr-item:focus {
     color: rgba(77, 90, 229, 1);
 }
 
@@ -75,7 +76,7 @@ body {
     flex-grow: 0;
 }
 
-.button-item :hover,
+.button-item:hover,
 :focus {
     background-color: #4D5AE5;
 }
@@ -90,4 +91,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-transform: capitalize;
+}
+.project-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.75;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-transform: capitalize;
 }
