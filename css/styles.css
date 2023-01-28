@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+}
+/* логотип */
+.header-logo {
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 0.75;
+    color: #2E2F42;
+    text-decoration: none
+
+}
+.web {
+    color: rgba(77, 90, 229, 1);
+}
+/* вилучила крапки зі спісків */
+.list {
+    list-style: none;
+} 
+/* navigation */
+.header-nav-item :hover,
+.header-nav-item :focus {
+    color: rgba(77, 90, 229, 1);
+}
+
+.header-nav-item {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none
+}
+.header-adr-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.75;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none
+}
+.header-adr-item :hover {
+    color: rgba(77, 90, 229, 1);
+}
+
+.header-adr-item :focus {
+    color: rgba(77, 90, 229, 1);
+}
+.button-item {
+    font-family: inherit;
+}
+
+
+f
+/* identical to box height, or 150% */
+
+
+
+/* SLATE */
+
+
+
+cursor: pointer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* вилучила крапки зі спісків */
+.list {
+    list-style: none;
+}
+/* вилучила підкреслення */
+a {
+main}
+@font-face
+.header {
+
+}
+
+
+.studio{
+    
+}
+
+/*основний текст NAVY BLUE rgba(46, 47, 66, 1)  */
+/* logo1 rgba(77, 90, 229, 1) */
+/* buttons */
+.cursor: pointer {
+
+}
