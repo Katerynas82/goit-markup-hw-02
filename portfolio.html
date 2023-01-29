@@ -1,111 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <header class="header">
+    <nav class="header-nav">
+      <a class="header-logo" href="./index.html">
+        <span class="web header-logo">web</span>studio</a
+      >
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<header class="header">
-  <nav class="header-nav">
-    <a class="header-logo" href="./index.html">
-      <span class="web header-logo">web</span>studio</a>
+      <ul class="header-nav-items list">
+        <li><a class="header-nav-item" href="index.html">Studio</a></li>
+        <li><a class="header-nav-item" href="">Portfolio</a></li>
+        <li><a class="header-nav-item" href="">Contacts</a></li>
+      </ul>
+    </nav>
+    <address>
+      <ul class="header-adr-items list">
+        <li>
+          <a class="header-adr-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-adr-item" href="tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </li>
+      </ul>
+    </address>
+  </header>
 
-    <ul class="header-nav-items list">
-      <li><a class="header-nav-item" href="index.html">Studio</a></li>
-      <li><a class="header-nav-item" href="">Portfolio</a></li>
-      <li><a class="header-nav-item" href="">Contacts</a></li>
-    </ul>
-  </nav>
-  <address>
-    <ul class="header-adr-items list">
-      <li><a class="header-adr-item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="header-adr-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-    </ul>
-  </address>
-</header>
+  <main class="main">
+    <section class="buttons">
+      <ul class="button-items list">
+        <li><button class="button-item" type="button">All</button></li>
+        <li><button class="button-item" type="button">Web Site</button></li>
+        <li><button class="button-item" type="button">App</button></li>
+        <li><button class="button-item" type="button">Design</button></li>
+        <li><button class="button-item" type="button">Marketing</button></li>
+      </ul>
+    </section>
+  </main>
 
-<main class="main">
-  <section class="buttons">
-    <ul class="button-items list">
-      <li><button class="button-item" type="button">All</button></li>
-      <li><button class="button-item" type="button">Web Site</button></li>
-      <li><button class="button-item" type="button">App</button></li>
-      <li><button class="button-item" type="button">Design</button></li>
-      <li><button class="button-item" type="button">Marketing</button></li>
-    </ul>
-  </section>
-</main>
-
-<body>
-  <!-- Project card 1 -->
-  <section class="row">
-    <div class="project">
-      <img class="project-img" src="./images/image7_1.jpg" alt="Banking App" width="360">
-      <h2 class="project-hed">banking app interface concept</h2>
-      <p class="project-item">app</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image7.jpg" alt="Cashless Payment" width="360">
-      <h2 class="project-hed">cashless payment</h2>
-      <p class="project-item">marketing</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image8.jpg" alt="Meditaion App" width="360">
-      <h2 class="project-hed">meditaion app</h2>
-      <p class="project-item">app</p>
-    </div>
-  </section>
-  <!-- Project card 2 -->
-  <section class="row">
-    <div class="project">
-      <img class="project-img" src="./images/image9.jpg" alt="Screen Illustrations" width="360">
-      <h2 class="project-hed">screen illustrations</h2>
-      <p class="project-item">design</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image10.jpg" alt="Online Courses" width="360">
-      <h2 class="project-hed">online courses</h2>
-      <p class="project-item">marketing</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image11.jpg" alt="Screen Illustrations" width="360">
-      <h2 class="project-hed">screen illustrations</h2>
-      <p class="project-item">design</p>
-    </div>
-  </section>
-  <!-- Project card 3 -->
-  <section class="row">
-    <div class="project">
-      <img class="project-img" src="./images/image12.jpg" alt="Instagram Stories Concept" width="360">
-      <h2 class="project-hed">instagram stories concept</h2>
-      <p class="project-item">design</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image13.jpg" alt="Organic Food" width="360">
-      <h2 class="project-hed">organic food</h2>
-      <p class="project-item">web site</p>
-    </div>
-    <div class="project">
-      <img class="project-img" src="./images/image14.jpg" alt="Fresh Coffee" width="360">
-      <h2 class="project-hed">fresh coffee</h2>
-      <p class="project-item">web site</p>
-    </div>
-    
-  </section>
-</body>
-<footer>
-  <a class="footer-logo" href="./index.html">
-    <span class="web footer-logo">web</span>studio</a>
-  <p class="footer-item">Increase the flow of customers and sales for your business with digital marketing & growth
-    solutions.
-  </p>
-</footer>
-
+  <body>
+    <!-- Project card 1 -->
+    <section class="row">
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image7_1.jpg"
+          alt="Banking App"
+          width="360"
+        />
+        <h2 class="project-hed">banking app interface concept</h2>
+        <p class="project-item">app</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image7.jpg"
+          alt="Cashless Payment"
+          width="360"
+        />
+        <h2 class="project-hed">cashless payment</h2>
+        <p class="project-item">marketing</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image8.jpg"
+          alt="Meditaion App"
+          width="360"
+        />
+        <h2 class="project-hed">meditaion app</h2>
+        <p class="project-item">app</p>
+      </div>
+    </section>
+    <!-- Project card 2 -->
+    <section class="row">
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image9.jpg"
+          alt="Screen Illustrations"
+          width="360"
+        />
+        <h2 class="project-hed">screen illustrations</h2>
+        <p class="project-item">design</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image10.jpg"
+          alt="Online Courses"
+          width="360"
+        />
+        <h2 class="project-hed">online courses</h2>
+        <p class="project-item">marketing</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image11.jpg"
+          alt="Screen Illustrations"
+          width="360"
+        />
+        <h2 class="project-hed">screen illustrations</h2>
+        <p class="project-item">design</p>
+      </div>
+    </section>
+    <!-- Project card 3 -->
+    <section class="row">
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image12.jpg"
+          alt="Instagram Stories Concept"
+          width="360"
+        />
+        <h2 class="project-hed">instagram stories concept</h2>
+        <p class="project-item">design</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image13.jpg"
+          alt="Organic Food"
+          width="360"
+        />
+        <h2 class="project-hed">organic food</h2>
+        <p class="project-item">web site</p>
+      </div>
+      <div class="project">
+        <img
+          class="project-img"
+          src="./images/image14.jpg"
+          alt="Fresh Coffee"
+          width="360"
+        />
+        <h2 class="project-hed">fresh coffee</h2>
+        <p class="project-item">web site</p>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <a class="footer-logo" href="./index.html">
+      <span class="web footer-logo">web</span>studio</a
+    >
+    <p class="footer-item">
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+  </footer>
 </html>
