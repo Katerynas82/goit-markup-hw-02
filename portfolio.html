@@ -11,8 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel=“stylesheet”
+    href=“https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css”
+    integrity=“sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==”
+    crossorigin=“anonymous” referrerpolicy=“no-referrer” />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <header class="header">
     <nav class="header-nav">
       <a class="header-logo" href="./index.html">
@@ -21,7 +26,7 @@
 
       <ul class="header-nav-items list">
         <li><a class="header-nav-item" href="index.html">Studio</a></li>
-        <li><a class="header-nav-item" href="">Portfolio</a></li>
+        <li><a class="header-nav-item current" href="portfolio.html">Portfolio</a></li>
         <li><a class="header-nav-item" href="">Contacts</a></li>
       </ul>
     </nav>
@@ -40,9 +45,9 @@
       </ul>
     </address>
   </header>
-
-  <main class="main">
-    <div>
+  <main>
+    <section>
+      <h1 class="visually-hidden"></h1>
       <ul class="button-items list">
         <li><button class="button-item" type="button">All</button></li>
         <li><button class="button-item" type="button">Web Site</button></li>
@@ -50,104 +55,98 @@
         <li><button class="button-item" type="button">Design</button></li>
         <li><button class="button-item" type="button">Marketing</button></li>
       </ul>
-    </div>
-    <section class="row">
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image7_1.jpg"
-          alt="Banking App"
-          width="360"
-        >
-        <h2 class="project-hed">banking app interface concept</h2>
-        <p class="project-item">app</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image7.jpg"
-          alt="Cashless Payment"
-          width="360"
-        >
-        <h2 class="project-hed">cashless payment</h2>
-        <p class="project-item">marketing</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image8.jpg"
-          alt="Meditaion App"
-          width="360"
-        >
-        <h2 class="project-hed">meditaion app</h2>
-        <p class="project-item">app</p>
-      </div>
-    </section>
-    <!-- Project card 2 -->
-    <section class="row">
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image9.jpg"
-          alt="Screen Illustrations"
-          width="360"
-        >
-        <h2 class="project-hed">screen illustrations</h2>
-        <p class="project-item">design</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image10.jpg"
-          alt="Online Courses"
-          width="360"
-        >
-        <h2 class="project-hed">online courses</h2>
-        <p class="project-item">marketing</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image11.jpg"
-          alt="Screen Illustrations"
-          width="360"
-        >
-        <h2 class="project-hed">screen illustrations</h2>
-        <p class="project-item">design</p>
-      </div>
-    </section>
-    <!-- Project card 3 -->
-    <section class="row">
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image12.jpg"
-          alt="Instagram Stories Concept"
-          width="360"
-        >
-        <h2 class="project-hed">instagram stories concept</h2>
-        <p class="project-item">design</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image13.jpg"
-          alt="Organic Food"
-          width="360"
-        >
-        <h2 class="project-hed">organic food</h2>
-        <p class="project-item">web site</p>
-      </div>
-      <div class="project">
-        <img
-          class="project-img"
-          src="./images/image14.jpg"
-          alt="Fresh Coffee"
-          width="360"
-        >
-        <h2 class="project-hed">fresh coffee</h2>
-        <p class="project-item">web site</p>
-      </div>
+      <ul class="project list">
+        <li>
+          <img
+            class="project-img"
+            src="./images/image7_1.jpg"
+            alt="Banking App"
+            width="360"
+          />
+          <h2 class="project-hed">banking app interface concept</h2>
+          <p class="project-item">app</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image7.jpg"
+            alt="Cashless Payment"
+            width="360"
+          />
+          <h2 class="project-hed">cashless payment</h2>
+          <p class="project-item">marketing</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image8.jpg"
+            alt="Meditaion App"
+            width="360"
+          />
+          <h2 class="project-hed">meditaion app</h2>
+          <p class="project-item">app</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image9.jpg"
+            alt="Screen Illustrations"
+            width="360"
+          />
+          <h2 class="project-hed">screen illustrations</h2>
+          <p class="project-item">design</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image10.jpg"
+            alt="Online Courses"
+            width="360"
+          />
+          <h2 class="project-hed">online courses</h2>
+          <p class="project-item">marketing</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image11.jpg"
+            alt="Screen Illustrations"
+            width="360"
+          />
+          <h2 class="project-hed">screen illustrations</h2>
+          <p class="project-item">design</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image12.jpg"
+            alt="Instagram Stories Concept"
+            width="360"
+          />
+          <h2 class="project-hed">instagram stories concept</h2>
+          <p class="project-item">design</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image13.jpg"
+            alt="Organic Food"
+            width="360"
+          />
+          <h2 class="project-hed">organic food</h2>
+          <p class="project-item">web site</p>
+        </li>
+        <li>
+          <img
+            class="project-img"
+            src="./images/image14.jpg"
+            alt="Fresh Coffee"
+            width="360"
+          />
+          <h2 class="project-hed">fresh coffee</h2>
+          <p class="project-item">web site</p>
+        </li>
+      </ul>
     </section>
   </main>
 
